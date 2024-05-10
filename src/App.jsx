@@ -26,7 +26,7 @@ function App() {
        </div>
 
 
-       <div className=' mt-10 w-7/12 text-md mx-auto'>
+       <div className=' mt-10 w-9/12 text-md mx-auto'>
           {
             paraArray.map((paraItem)=>
                 <div key={paraItem.sno} className=' my-6'>{paraItem.sno}) {paraItem.paragraph}</div>
